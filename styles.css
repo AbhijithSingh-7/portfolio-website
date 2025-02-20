@@ -12,51 +12,6 @@ body {
 /* Header Styling */
 header {
     text-align: center;
-    background: linear-gradient(to right, #2c3e50, #34495e); /* Updated color for a modern look */
-    color: white;
-    padding: 30px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-header h1 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 5px;
-    color: #f4f4f4;
-}
-
-header p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #dcdcdc;
-    margin: 5px 0;
-}
-
-header p a {
-    color: #f4f4f4;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-header p a:hover {
-    color: #00c3ff;
-    text-decoration: underline;
-}
-/* styles.css - Professional, Clean & Modern Portfolio */
-
-/* General Body Styling */
-body {
-    font-family: 'Poppins', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-/* Header Styling */
-header {
-    text-align: center;
     background: linear-gradient(to right, #2c3e50, #34495e);
     color: white;
     padding: 30px;
@@ -89,50 +44,54 @@ header p a:hover {
     text-decoration: underline;
 }
 
+/* Section Styling - Align all sections */
+section {
+    background: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 3px solid #0073e6;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Subheadings */
+h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 8px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.3s ease-in-out;
+}
+
 /* Technical Skills Section */
 #technical-skills {
-    max-width: 900px; /* Restrict width for proper layout */
-    margin: 30px auto; /* Center align the section */
-    font-family: 'Roboto', sans-serif; /* Different font for this section */
+    font-family: 'Roboto', sans-serif;
     background: #f9f9f9;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#technical-skills h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #0073e6;
-    border-bottom: 3px solid #0073e6;
-    padding-bottom: 10px;
-}
-
-#technical-skills ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#technical-skills ul li {
-    padding: 8px 0;
-    font-size: 16px;
-    color: #555;
-}
-
-/* Bold Subheadings */
-#technical-skills ul li strong {
-    font-size: 18px;
-    font-weight: 700;
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Normal Font for Skills */
-#technical-skills ul li span {
-    font-size: 16px;
-    font-weight: 400;
-    color: #555;
-    font-family: 'Arial', sans-serif;
 }
 
 #technical-skills h2 {
@@ -194,6 +153,30 @@ header p a:hover {
     font-size: 16px;
     line-height: 1.6;
     color: #555;
+}
+
+/* Tech Stack Section in Experience */
+.tech-stack {
+    font-family: 'Roboto', sans-serif;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-stack strong {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.tech-stack span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Links */
