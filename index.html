@@ -3,49 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhijith Singh Thakur - Resume</title>
+    <title>Abhijith Singh Thakur - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Header Section -->
     <header>
         <h1>Abhijith Singh Thakur</h1>
-        <p>Austin, TX | (512) 942-7025 | <a href="mailto:abhijthsnght@gmail.com">abhijthsnght@gmail.com</a></p>
+        <p>Austin, TX | (512) 942-7025 | 
+            <a href="mailto:abhijthsnght@gmail.com">abhijthsnght@gmail.com</a>
+        </p>
     </header>
+
+    <!-- Summary Section -->
     <section class="summary">
         <h2>Summary</h2>
-        <p>Results-driven Data Engineer with 5 years of experience designing, building, and optimizing data pipelines on AWS cloud infrastructure.</p>
-    </section>
-    <section class="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> Python, R, Spark, Java, C, C++</li>
-            <li><strong>Data Engineering:</strong> Apache Kafka, Kinesis, Hadoop, PySpark, Airflow, Snowflake</li>
-            <li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud</li>
-            <li><strong>Database Management:</strong> PostgreSQL, MySQL, Oracle, SQL Server</li>
-        </ul>
-    </section>
-     <section className="my-16 p-8 rounded-xl bg-white shadow-md" initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}>
-      <h2 className="text-5xl font-bold text-purple-600">Projects & Experience</h2>
-      <div className="space-y-8 mt-6">
-        <div>
-          <h3 className="text-3xl font-semibold text-purple-500">ERP State of Texas (Data Engineer II)</h3>
-          <p className="text-lg text-gray-700">Designed scalable data lakes, automated ETL pipelines, and improved reporting efficiency.</p>
-        </div>
-        <div>
-          <h3 className="text-3xl font-semibold text-purple-500">Mars (Data Engineer)</h3>
-          <p className="text-lg text-gray-700">Optimized cloud migration from Azure to AWS, ensuring 25% faster data retrieval.</p>
-        </div>
-        <div>
-          <h3 className="text-3xl font-semibold text-purple-500">Molina Healthcare (Data Engineer)</h3>
-          <p className="text-lg text-gray-700">Implemented secure healthcare ETL pipelines, adhering to HIPAA regulations.</p>
-        </div>
-        <div>
-          <h3 className="text-3xl font-semibold text-purple-500">Zerodha (Data Engineer)</h3>
-          <p className="text-lg text-gray-700">Built real-time financial data processing systems for high-frequency trading.</p>
-        </div>
-      </div>
+        <p>Results-driven Data Engineer with 6 years of experience designing, building, and optimizing data pipelines on AWS cloud infrastructure.</p>
     </section>
 
+    <!-- Skills Section -->
+<section class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Programming Languages:</strong> Python, R, Spark, Java, C, C++</li>
+        <li><strong>Data Engineering:</strong> Apache Kafka, Kinesis, Hadoop, PySpark, Apache Airflow, Informatica PowerCenter, Hive, HDFS, API Integration, Snowflake, Azure Data Lake, Azure Data Factory, AWS Redshift, Data Warehousing, Alteryx</li>
+        <li><strong>Data Processing Technologies:</strong> ETL/ELT, data replication, message queuing (Apache Kafka, Kinesis), Spark, Flink, API-based data acquisition, Erwin</li>
+        <li><strong>Scripting Languages:</strong> Python, Linux Shell Scripting</li>
+        <li><strong>Deployment & Configuration Management:</strong> Terraform, Ansible, Chef, Kubernetes, Docker, Amazon ECS</li>
+        <li><strong>Data Analysis & Visualization:</strong> Tableau, Power BI, Excel, SciPy, Matplotlib</li>
+        <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-Learn, CNN, ML Model Integration, Feature Engineering</li>
+        <li><strong>Cloud Platforms:</strong> AWS (S3, EMR, Lambda, Athena, Redshift), Azure (Data Factory, Synapse, Data Lake Gen 2, Logic Apps, Fabric), Google Cloud</li>
+        <li><strong>Project Management:</strong> Agile, Scrum, JIRA, Confluence</li>
+        <li><strong>Database Management:</strong> PostgreSQL, MySQL, Oracle Database, Azure SQL Database, Microsoft SQL Server</li>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>CI/CD:</strong> Jenkins, Azure DevOps</li>
+    </ul>
+</section>
+
+<!-- Projects & Experience Section -->
+<section class="projects">
+    <h2>Projects & Experience</h2>
+    <div class="experience-container">
+
+        <!-- ERS State of Texas -->
+        <div class="experience">
+            <h3>ERS State of Texas (Data Engineer II)</h3>
+            <ul>
+                <li>Developed and optimized **ETL pipelines** for ERP data processing, reducing manual efforts by **40%**.</li>
+                <li>Implemented **AWS Glue & Lambda workflows**, improving **data ingestion efficiency**.</li>
+                <li>Managed **Amazon S3-based data lakes**, reducing **storage costs by 15%**.</li>
+                <li>Optimized **SQL queries in Redshift**, reducing **report latency by 25%**.</li>
+                <li>Developed **real-time streaming solutions with Amazon Kinesis** for financial transactions.</li>
+            </ul>
+            <p><strong>Tech Stack:</strong> AWS Glue, AWS Lambda, Amazon Redshift, Amazon S3, Amazon Kinesis, Python, SQL, Terraform</p>
+        </div>
+
+        <!-- Mars -->
+        <div class="experience">
+            <h3>Mars (Data Engineer)</h3>
+            <ul>
+                <li>Migrated **structured & unstructured data from Azure Data Lake to AWS S3**, increasing retrieval speed by **25%**.</li>
+                <li>Developed **ETL workflows with AWS Glue & Lambda**, automating data ingestion and reducing manual intervention by **40%**.</li>
+                <li>Optimized **Azure Synapse migration to Redshift**, improving **query performance**.</li>
+                <li>Built **real-time streaming pipelines with Amazon Kinesis**, reducing **latency by 30%**.</li>
+            </ul>
+            <p><strong>Tech Stack:</strong> AWS Glue, AWS Lambda, Amazon Redshift, Azure Data Factory, Python, Pandas, SQL</p>
+        </div>
+
+        <!-- Molina Healthcare -->
+        <div class="experience">
+            <h3>Molina Healthcare (Data Engineer)</h3>
+            <ul>
+                <li>Developed **ETL pipelines using Azure Data Factory**, ensuring **HIPAA-compliant data processing**.</li>
+                <li>Integrated **EHR & claims data into Snowflake**, reducing **storage costs by 20%**.</li>
+                <li>Enhanced **Azure Synapse query performance**, improving **analytics execution by 30%**.</li>
+                <li>Built **secure API integrations for patient records**, ensuring **GDPR & HIPAA compliance**.</li>
+            </ul>
+            <p><strong>Tech Stack:</strong> Azure Data Factory, Azure Data Lake, Snowflake, Azure Synapse, Python, SQL, Apache Airflow</p>
+        </div>
+
+        <!-- Zerodha -->
+        <div class="experience">
+            <h3>Zerodha (Data Engineer)</h3>
+            <ul>
+                <li>Designed **real-time financial data pipelines** using **AWS Glue & Lambda** for high-frequency trading.</li>
+                <li>Optimized **PostgreSQL & MySQL queries**, reducing **market data retrieval time by 20%**.</li>
+                <li>Developed **automated Python-based data validation scripts**, reducing **trade execution errors**.</li>
+                <li>Integrated **stock market APIs for real-time pricing and analytics**, improving trading strategy models.</li>
+            </ul>
+            <p><strong>Tech Stack:</strong> SQL, PostgreSQL, MySQL, AWS Glue, AWS Lambda, AWS CloudWatch, Python, Stock Market APIs</p>
+        </div>
+
+    </div>
+</section>
+
+
+    
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Abhijith Singh Thakur | <a href="mailto:abhijthsnght@gmail.com">Contact Me</a></p>
+    </footer>
+
     <script src="script.js"></script>
+
 </body>
 </html>
