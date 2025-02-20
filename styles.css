@@ -1,6 +1,6 @@
-/* styles.css - Modern & Professional GitHub Portfolio */
+/* styles.css - Professional, Clean & Modern Portfolio */
 
-/* General Styles */
+/* General Body Styling */
 body {
     font-family: 'Poppins', Arial, sans-serif;
     margin: 0;
@@ -22,7 +22,7 @@ header {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Sections Styling */
+/* Section Styling */
 section {
     background: white;
     max-width: 900px;
@@ -30,25 +30,30 @@ section {
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-section:hover {
-    transform: translateY(-5px);
 }
 
 /* Headings */
 h2 {
     color: #222;
+    font-size: 24px;
+    font-weight: 700;
     border-bottom: 3px solid #0073e6;
     padding-bottom: 10px;
-    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Subheadings */
+h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 /* Lists */
 ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 ul li {
@@ -58,13 +63,30 @@ ul li {
     transition: color 0.3s ease-in-out;
 }
 
-ul li:last-child {
-    border-bottom: none;
+/* Experience Section */
+.experience-container {
+    margin-top: 20px;
 }
 
-ul li:hover {
+.experience {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f4f4f4;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience h3 {
     color: #0073e6;
-    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.experience p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
 }
 
 /* Links */
@@ -90,13 +112,3 @@ footer {
     margin-top: 30px;
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
 }
-
-footer a {
-    color: #f4f4f4;
-    font-weight: 500;
-}
-
-footer a:hover {
-    color: #0073e6;
-}
-
