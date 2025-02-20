@@ -12,14 +12,36 @@ body {
 /* Header Styling */
 header {
     text-align: center;
-    background: linear-gradient(to right, #1f1f1f, #444);
+    background: linear-gradient(to right, #2c3e50, #34495e); /* Updated color for a modern look */
     color: white;
     padding: 30px;
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #f4f4f4;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dcdcdc;
+    margin: 5px 0;
+}
+
+header p a {
+    color: #f4f4f4;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+header p a:hover {
+    color: #00c3ff;
+    text-decoration: underline;
 }
 
 /* Section Styling */
@@ -89,6 +111,30 @@ ul li {
     color: #555;
 }
 
+/* Tech Stack Section in Experience */
+.tech-stack {
+    font-family: 'Roboto', sans-serif;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-stack strong {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.tech-stack span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+}
+
 /* Links */
 a {
     text-decoration: none;
@@ -112,48 +158,3 @@ footer {
     margin-top: 30px;
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
 }
-
-/* Technical Skills Section */
-#technical-skills {
-    font-family: 'Roboto', sans-serif; /* Change font for this section */
-    background: #f9f9f9;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Heading */
-#technical-skills h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #0073e6;
-    border-bottom: 3px solid #0073e6;
-    padding-bottom: 10px;
-}
-
-/* List Items */
-#technical-skills ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-/* Bold Subheadings */
-#technical-skills ul li strong {
-    font-size: 18px;
-    font-weight: 700;
-    color: #333;
-}
-
-/* Normal Font for Skills */
-#technical-skills ul li span {
-    font-size: 16px;
-    font-weight: 400;
-    color: #555;
-    font-family: 'Arial', sans-serif; /* Different font for skills */
-}
-
-/* Add space between items */
-#technical-skills ul li {
-    padding: 8px 0;
-}
-
