@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         emailLink.addEventListener("mouseout", function () {
-            emailLink.style.color = "#333"; // Default Dark Gray
+            emailLink.style.color = "#FF0000"; // Default Dark Gray
         });
     } else {
         console.warn("Email link not found in the header.");
